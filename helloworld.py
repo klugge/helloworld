@@ -1,4 +1,4 @@
-""" howto generate hello number
+""" howto generate hello number (note list inversion slicing)
 p = 0
 for x in 'Hello, world!'[::-1]:
   p = p*88 + (ord(x) -32)
